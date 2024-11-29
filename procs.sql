@@ -9,7 +9,8 @@ create or replace procedure ##_app_owner.CONSOLIDATED_VIEW$other_file_procedure
                  max_len out int,
                  avg_len out numeric,
                  books out BOOK_OUT_OT,
-                 bla TEST.VALUE%TYPE
+                 bla TEST.VALUE%TYPE,
+                 fruit OUT TEST2.VALUE%TYPE
                  )
              language plpgsql
              as $$

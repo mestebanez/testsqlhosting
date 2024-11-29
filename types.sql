@@ -10,4 +10,7 @@ create       type BOOK_OUT_OT AS (name varchar(255),
 
 author varchar(255),
 
-rating varchar(5));
+rating varchar(5),
+
+spineWidth numeric
+);
